@@ -1,0 +1,68 @@
+body {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    color: hsl(228, 12%, 48%);
+    background-color: hsl(30, 38%, 92%);
+}
+
+.productImage {
+    width: auto;
+    height: 400px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 24px;
+    background-color: white;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-style: normal;
+    font-size: xx-large;
+
+    color: black;
+}
+
+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+}
+
+.price {
+    font-family: "Fraunces", serif;
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+}
+
+.previous {
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    text-decoration: line-through;
+}
+
+button {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-width: 0;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.addToCart {
+    color: white;
+    margin: 40px;
+}
